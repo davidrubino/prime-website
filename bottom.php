@@ -10,9 +10,9 @@ echo ' <div class="row">
 					</div>
 					<div class="col-md-4">
 						<p id="address">
-							1005 Richards Road, Suite R
+							N64 W24050 Main St., Suite 302
 							<br>
-							Hartland, WI 53029
+							Sussex, WI 53089
 						</p>
 					</div>
 		</div>';

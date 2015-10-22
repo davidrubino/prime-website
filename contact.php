@@ -129,13 +129,17 @@ function test_input($data) {
 <html>
 
 	<head>
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<link rel="stylesheet" href="main.css">
-		
-		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service, Contract and Direct Placement Staffing, Contract to hire, Executive Search, Contract to direct, Temporary Staff Services, Temporary agency, Contract firm, Employee payrolling, WBE Certified, Headhunter, Staffing firm, Woman owned, Headhunting, Contract staffing service, Sussex">
 
 		<title>Contact</title>
+		
+		<link rel="stylesheet" href="css/shift.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
 
 	</head>
 
@@ -146,7 +150,7 @@ function test_input($data) {
 		?>
 		<div class="jumbotron" id="contact">
 			<div class="container" id="logo">
-				<img src="logo.png">
+				<img src="img/logo.png">
 			</div>
 			<div class="container" id="whatwedo">
 				<h1>Contact Us</h1>
@@ -306,9 +310,9 @@ function test_input($data) {
 								<p>
 									<strong>Prime Resources LLC</strong>
 									<br>
-									1005 Richards Road, Suite R
+									N64 W24050 Main St., Suite 302
 									<br>
-									Hartland, WI 53029
+									Sussex, WI 53089
 								</p>
 								<p>
 									Phone: 262-465-6750
@@ -326,7 +330,9 @@ function test_input($data) {
 									<br>
 									Sussex, WI 53089
 								</p>
-								<img src="map.png">
+								<div>
+									<img src="img/map.png" id="map">
+								</div>
 							</div>
 						</div>
 					</div>

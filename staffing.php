@@ -2,13 +2,17 @@
 <html>
 
 	<head>
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<link rel="stylesheet" href="main.css">
-		
-		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service, Contract and Direct Placement Staffing, Contract to hire, Executive Search, Contract to direct, Temporary Staff Services, Temporary agency, Contract firm, Employee payrolling, WBE Certified, Headhunter, Staffing firm, Woman owned, Headhunting, Contract staffing service, Sussex">
 
 		<title>Staffing</title>
+		
+		<link rel="stylesheet" href="css/shift.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
 
 	</head>
 
@@ -16,7 +20,7 @@
 		<?php include 'menu.php';?>
 		<div class="jumbotron" id="staffing">
 			<div class="container" id="logo">
-				<img src="logo.png">
+				<img src="img/logo.png">
 			</div>
 			<div class="container" id="whatwedo">
 				<h1>Staffing &amp; Recruiting</h1>
@@ -33,7 +37,7 @@
 
 				<div class="row">
 					<div class="col-md-3">
-						<img src="engineering.png">
+						<img src="img/engineering.png">
 					</div>
 					<div class="col-md-3">
 						<h4>Engineering</h4>
@@ -83,13 +87,13 @@
 						</p>
 					</div>
 					<div class="col-md-3">
-						<img src="it.png">
+						<img src="img/it.png">
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-3">
-						<img src="manufacturing.png">
+						<img src="img/manufacturing.png">
 					</div>
 					<div class="col-md-3">
 						<h4>Manufacturing</h4>
@@ -145,7 +149,7 @@
 						</p>
 					</div>
 					<div class="col-md-3">
-						<img src="executive.png">
+						<img src="img/executive.png">
 					</div>
 				</div>
 			</div>
