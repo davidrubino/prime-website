@@ -133,7 +133,8 @@ function test_input($data) {
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="index, follow">
-		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service, Contract and Direct Placement Staffing, Contract to hire, Executive Search, Contract to direct, Temporary Staff Services, Temporary agency, Contract firm, Employee payrolling, WBE Certified, Headhunter, Staffing firm, Woman owned, Headhunting, Contract staffing service, Sussex">
+		<meta name="description" content="Contact our office by phone (262-465-6750) or email (info@primeresources-llc.com). Our mailing address is N64 W24050 Main St., Suite 302 Sussex, WI 53089">
+		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
 		<title>Contact</title>
 		
@@ -343,7 +344,7 @@ function test_input($data) {
 		<div class="info">
 			<div class="container">
 				<?php
-				include 'bottom.php';
+				include 'footer.php';
 				?>
 			</div>
 		</div>

@@ -2,11 +2,12 @@
 <html>
 
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="index, follow">
-		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service, Contract and Direct Placement Staffing, Contract to hire, Executive Search, Contract to direct, Temporary Staff Services, Temporary agency, Contract firm, Employee payrolling, WBE Certified, Headhunter, Staffing firm, Woman owned, Headhunting, Contract staffing service, Sussex">
+		<meta name="description" content="Prime Resources LLC, state certified WBE business with over 25 years of experience, provides professional and technical talent in the Milwaukee area.">
+		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
 		<title>Home</title>
 
@@ -47,7 +48,7 @@
 		<div class="info">
 			<div class="container">
 				<?php
-				include 'bottom.php';
+				include 'footer.php';
 				?>
 			</div>
 		</div>

@@ -6,10 +6,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="index, follow">
-		<meta name="keywords" content="Milwaukee, Wisconsin, Agency, Staffing, Recruiting, Placement, Firm, Prime Resources LLC, Temporary, Engineering, IT, CAD, Proe, Design, Service, Contract and Direct Placement Staffing, Contract to hire, Executive Search, Contract to direct, Temporary Staff Services, Temporary agency, Contract firm, Employee payrolling, WBE Certified, Headhunter, Staffing firm, Woman owned, Headhunting, Contract staffing service, Sussex">
+		<meta name="description" content="Prime Resources offers staffing and recruiting services for a variety of professionals including engineering, manufacturing, IT, and executive search.">
+		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
 		<title>Staffing</title>
-		
+
 		<link rel="stylesheet" href="css/shift.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -17,7 +18,9 @@
 	</head>
 
 	<body>
-		<?php include 'menu.php';?>
+		<?php
+		include 'menu.php';
+	?>
 		<div class="jumbotron" id="staffing">
 			<div class="container" id="logo">
 				<img src="img/logo.png">
@@ -32,7 +35,7 @@
 				<p id="staff-p">
 					We provide staffing and recruiting services
 					<br>
-					for a wide variety of professionals inluding:
+					for a wide variety of professionals including:
 				</p>
 
 				<div class="row">
@@ -157,7 +160,9 @@
 
 		<div class="info">
 			<div class="container">
-				<?php include 'bottom.php';?>
+				<?php
+				include 'footer.php';
+			?>
 			</div>
 		</div>
 	</body>
