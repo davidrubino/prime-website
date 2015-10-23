@@ -3,7 +3,7 @@ echo '<div class="nav">
 	<div class="container">
 		<ul class="pull-right">
 			<li>
-				<a href="home.php">Home</a>
+				<a href="index.php">Home</a>
 			</li>
 			<li>
 				<a href="staffing.php">Staffing</a>
