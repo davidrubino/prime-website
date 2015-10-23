@@ -137,8 +137,7 @@ function test_input($data) {
 		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
 		<title>Contact</title>
-		
-		<link rel="stylesheet" href="css/shift.css">
+
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
 
@@ -146,207 +145,211 @@ function test_input($data) {
 
 	<body>
 
-		<?php
-		include 'menu.php';
-		?>
-		<div class="jumbotron" id="contact">
-			<div class="container" id="logo">
-				<img src="img/logo.png">
-			</div>
-			<div class="container" id="whatwedo">
-				<h1>Contact Us</h1>
-			</div>
-		</div>
+		<div class="container-fluid">
+			<div class="col-md-12">
+				<?php
+				include 'menu.php';
+				?>
+				<div class="jumbotron" id="contact">
+					<img src="img/logo.png" class="logo">
+					<h1>Contact Us</h1>
+				</div>
 
-		<div class="main-object">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="error" id="error-def">
-							* required field
-						</div>
-						<div class="form">
-							<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data">
-								<table>
-									<tr>
-										<td class="description-cell"> Last Name </td>
-										<td>
-										<input class="fields" type="text" name="lastName">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											* <?php echo $lastNameErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> First Name </td>
-										<td>
-										<input class="fields" type="text" name="firstName">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											* <?php echo $firstNameErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> Email </td>
-										<td>
-										<input class="fields" type="text" name="email">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											* <?php echo $emailErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> Address </td>
-										<td>
-										<input class="fields" type="text" name="address">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											<?php echo $addressErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> City </td>
-										<td>
-										<input class="fields" type="text" name="city">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											<?php echo $cityErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> State </td>
-										<td>
-										<select class="fields" name="state">
-											<option value="Alabama">Alabama</option>
-											<option value="Alaska">Alaska</option>
-											<option value="Arizona">Arizona</option>
-											<option value="Arkansas">Arkansas</option>
-											<option value="California">California</option>
-											<option value="Colorado">Colorado</option>
-											<option value="Connecticut">Connecticut</option>
-											<option value="Delaware">Delaware</option>
-											<option value="Florida">Florida</option>
-											<option value="Georgia">Georgia</option>
-											<option value="Hawaii">Hawaii</option>
-											<option value="Idaho">Idaho</option>
-											<option value="Illinois">Illinois</option>
-											<option value="Indiana">Indiana</option>
-											<option value="Iowa">Iowa</option>
-											<option value="Kansas">Kansas</option>
-											<option value="Kentucky">Kentucky</option>
-											<option value="Louisiana">Louisiana</option>
-											<option value="Maine">Maine</option>
-											<option value="Maryland">Maryland</option>
-											<option value="Massachusetts">Massachusetts</option>
-											<option value="Michigan">Michigan</option>
-											<option value="Minnesota">Minnesota</option>
-											<option value="Mississippi">Mississippi</option>
-											<option value="Missouri">Missouri</option>
-											<option value="Montana">Montana</option>
-											<option value="Nebraska">Nebraska</option>
-											<option value="Nevada">Nevada</option>
-											<option value="New Hampshire">New Hampshire</option>
-											<option value="New Jersey">New Jersey</option>
-											<option value="New Mexico">New Mexico</option>
-											<option value="New York">New York</option>
-											<option value="North Carolina">North Carolina</option>
-											<option value="North Dakota">North Dakota</option>
-											<option value="Ohio">Ohio</option>
-											<option value="Oklahoma">Oklahoma</option>
-											<option value="Oregon">Oregon</option>
-											<option value="Pennsylvania">Pennsylvania</option>
-											<option value="Rhode Island">Rhode Island</option>
-											<option value="South Carolina">South Carolina</option>
-											<option value="South Dakota">South Dakota</option>
-											<option value="Tennessee">Tennessee</option>
-											<option value="Texas">Texas</option>
-											<option value="Utah">Utah</option>
-											<option value="Vermont">Vermont</option>
-											<option value="Virginia">Virginia</option>
-											<option value="Washington">Washington</option>
-											<option value="West Virginia">West Virginia</option>
-											<option value="Wisconsin" selected>Wisconsin</option>
-											<option value="Wyoming">Wyoming</option>
-										</select></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> Zip </td>
-										<td>
-										<input class="fields" type="text" name="zip">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											<?php echo $zipErr; ?>
-										</p></td>
-									</tr>
-									<tr>
-										<td class="description-cell"> Phone </td>
-										<td>
-										<input class="fields" type="text" name="phone">
-										</td>
-										<td class="error-cell">
-										<p class="error">
-											<?php echo $phoneErr; ?>
-										</p></td>
-									</tr>
-								</table>
-								<div>
-									<input name="fileAttach" type="file" value="" id="attach-button">
+				<div class="main-object">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="error" id="error-def">
+									* required field
 								</div>
-								<div>
-									<input type="submit" value="" id="submit-button">
+								<div class="form">
+									<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data">
+										<table>
+											<tr>
+												<td class="description-cell"> Last Name </td>
+												<td>
+												<input class="fields" type="text" name="lastName">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													* <?php echo $lastNameErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> First Name </td>
+												<td>
+												<input class="fields" type="text" name="firstName">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													* <?php echo $firstNameErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> Email </td>
+												<td>
+												<input class="fields" type="text" name="email">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													* <?php echo $emailErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> Address </td>
+												<td>
+												<input class="fields" type="text" name="address">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													<?php echo $addressErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> City </td>
+												<td>
+												<input class="fields" type="text" name="city">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													<?php echo $cityErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> State </td>
+												<td>
+												<select class="fields" name="state">
+													<option value="Alabama">Alabama</option>
+													<option value="Alaska">Alaska</option>
+													<option value="Arizona">Arizona</option>
+													<option value="Arkansas">Arkansas</option>
+													<option value="California">California</option>
+													<option value="Colorado">Colorado</option>
+													<option value="Connecticut">Connecticut</option>
+													<option value="Delaware">Delaware</option>
+													<option value="Florida">Florida</option>
+													<option value="Georgia">Georgia</option>
+													<option value="Hawaii">Hawaii</option>
+													<option value="Idaho">Idaho</option>
+													<option value="Illinois">Illinois</option>
+													<option value="Indiana">Indiana</option>
+													<option value="Iowa">Iowa</option>
+													<option value="Kansas">Kansas</option>
+													<option value="Kentucky">Kentucky</option>
+													<option value="Louisiana">Louisiana</option>
+													<option value="Maine">Maine</option>
+													<option value="Maryland">Maryland</option>
+													<option value="Massachusetts">Massachusetts</option>
+													<option value="Michigan">Michigan</option>
+													<option value="Minnesota">Minnesota</option>
+													<option value="Mississippi">Mississippi</option>
+													<option value="Missouri">Missouri</option>
+													<option value="Montana">Montana</option>
+													<option value="Nebraska">Nebraska</option>
+													<option value="Nevada">Nevada</option>
+													<option value="New Hampshire">New Hampshire</option>
+													<option value="New Jersey">New Jersey</option>
+													<option value="New Mexico">New Mexico</option>
+													<option value="New York">New York</option>
+													<option value="North Carolina">North Carolina</option>
+													<option value="North Dakota">North Dakota</option>
+													<option value="Ohio">Ohio</option>
+													<option value="Oklahoma">Oklahoma</option>
+													<option value="Oregon">Oregon</option>
+													<option value="Pennsylvania">Pennsylvania</option>
+													<option value="Rhode Island">Rhode Island</option>
+													<option value="South Carolina">South Carolina</option>
+													<option value="South Dakota">South Dakota</option>
+													<option value="Tennessee">Tennessee</option>
+													<option value="Texas">Texas</option>
+													<option value="Utah">Utah</option>
+													<option value="Vermont">Vermont</option>
+													<option value="Virginia">Virginia</option>
+													<option value="Washington">Washington</option>
+													<option value="West Virginia">West Virginia</option>
+													<option value="Wisconsin" selected>Wisconsin</option>
+													<option value="Wyoming">Wyoming</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> Zip </td>
+												<td>
+												<input class="fields" type="text" name="zip">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													<?php echo $zipErr; ?>
+												</p></td>
+											</tr>
+											<tr>
+												<td class="description-cell"> Phone </td>
+												<td>
+												<input class="fields" type="text" name="phone">
+												</td>
+												<td class="error-cell">
+												<p class="error">
+													<?php echo $phoneErr; ?>
+												</p></td>
+											</tr>
+										</table>
+										<div>
+											<input name="fileAttach" type="file" value="" id="attach-button">
+										</div>
+										<div>
+											<input type="submit" value="" id="submit-button">
+										</div>
+									</form>
 								</div>
-							</form>
-						</div>
-					</div>
+							</div>
 
-					<div class="col-lg-6">
-						<div class="contact">
-							<div class="spaced-p">
-								<p>
-									<strong>Prime Resources LLC</strong>
-									<br>
-									N64 W24050 Main St., Suite 302
-									<br>
-									Sussex, WI 53089
-								</p>
-								<p>
-									Phone: 262-465-6750
-									<br>
-									Fax: 262-661-7062
-									<br>
-									<a href="mailto:info@primeresources-llc.com" class="email" id="contact-email"> info@primeresources-llc.com </a>
-								</p>
-								<p>
-									Mailing Address:
-									<br>
-									Prime Resources LLC
-									<br>
-									PO Box 72
-									<br>
-									Sussex, WI 53089
-								</p>
-								<div>
-									<img src="img/map.png" id="map">
+							<div class="col-lg-6">
+								<div class="contact">
+									<div class="spaced-p">
+										<p>
+											<strong>Prime Resources LLC</strong>
+											<br>
+											N64 W24050 Main St., Suite 302
+											<br>
+											Sussex, WI 53089
+										</p>
+										<p>
+											Phone: 262-465-6750
+											<br>
+											Fax: 262-661-7062
+											<br>
+											<a href="mailto:info@primeresources-llc.com" class="email" id="contact-email"> info@primeresources-llc.com </a>
+										</p>
+										<p>
+											Mailing Address:
+											<br>
+											Prime Resources LLC
+											<br>
+											PO Box 72
+											<br>
+											Sussex, WI 53089
+										</p>
+										<div>
+											<img src="img/map.png" id="map">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="info">
+					<div class="container">
+						<?php
+						include 'footer.php';
+						?>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="info">
-			<div class="container">
-				<?php
-				include 'footer.php';
-				?>
-			</div>
-		</div>
+		<script src="jquery/jquery-1.11.3.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
 	</body>
 </html>

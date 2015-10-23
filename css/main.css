@@ -1,7 +1,7 @@
 body {
 	padding-top: 50px;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
 	padding-bottom: 25px;
 }
 
@@ -91,6 +91,7 @@ body {
 	font-size: 54px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	padding-left: 15px;
 }
 
 .jumbotron p {
@@ -116,6 +117,12 @@ body {
 	font-weight: bold;
 }
 
+.logo {
+	position: relative;
+	top: -150px;
+	left: -50px;
+}
+
 .main-object {
 	background-color: #efefef;
 	border-bottom: 1px solid #dbdbdb;
@@ -131,22 +138,30 @@ body {
 	font-weight: bold;
 	color: #6C5E5E;
 	text-align: center;
-}
-
-.nav {
-	background-color: #1B3282;
+	margin-bottom: 15px;
 }
 
 .nav a {
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	padding: 10px 10px;
+	text-align: right;
 }
 
-.nav li {
-	display: inline;
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	background-color: #1B3282;
+	border-color: #1B3282;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	text-decoration: underline;
 }
 
 .prime-logo {
@@ -195,29 +210,22 @@ body {
 	background-image: url('../img/home_banner.png');
 }
 
-#logo {
-	width: 500px;
-	top: -155px;
-	left: -275px;
-}
-
 #map {
 	max-width: 100%;
 	max-height: 100%;
-}
-
-#ourpeople {
-	margin-bottom: 15px;
 }
 
 #phone {
 	font-size: 34px;
 }
 
-#staff-p {
+#staff {
 	color: #2844D0;
 	font-size: 20px;
-	margin: 14px 30px 14px 310px;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #staffing {
@@ -235,13 +243,4 @@ body {
 
 #thank-you-page {
 	background-image: url('../img/contact_banner.png');
-}
-
-#thankyou {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#whatwedo {
-	top: 0px;
 }
