@@ -9,7 +9,7 @@
 		<meta name="description" content="Prime Resources offers staffing and recruiting services for a variety of professionals including engineering, manufacturing, IT, and executive search.">
 		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
-		<title>Staffing</title>
+		<title>Staffing &amp; Recruiting</title>
 
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">

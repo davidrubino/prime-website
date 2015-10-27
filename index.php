@@ -9,7 +9,7 @@
 		<meta name="description" content="Prime Resources LLC, state certified WBE business with over 25 years of experience, provides professional and technical talent in the Milwaukee area.">
 		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
-		<title>Home</title>
+		<title>Prime Resources LLC</title>
 
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">

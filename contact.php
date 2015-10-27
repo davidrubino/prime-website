@@ -136,7 +136,7 @@ function test_input($data) {
 		<meta name="description" content="Contact our office by phone (262-465-6750) or email (info@primeresources-llc.com). Our mailing address is N64 W24050 Main St., Suite 302 Sussex, WI 53089">
 		<meta name="keywords" content="engineering,recruiting,staffing,services,placement,contract,payrolling,wbe,headhunting,agency,firm,it,cad,design,executive,wbe,woman-owned,milwaukee,sussex,wisconsin">
 
-		<title>Contact</title>
+		<title>Contact Us</title>
 
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
